@@ -1,0 +1,16 @@
+---
+title: "My Website"
+---
+
+Pengertian Watermark
+---
+
+Watermark adalah sebuah tanda kepemilikan dalam hal ini ialah foto/gambar maupun video berupa tulisan kecil/logo yang terlihat mengambang pada sebuah gambar maupun video.
+
+Fungsi Watermark
+---
+Secara fungsi, Watermark merupakan bukti jika gambar atau video tersebut merupakan hasil kempemilikan dari yang menciptakan atau disebut content creator. Status ©copyright juga bisa disematkan pada gambar/video yang ada Watermarknya.
+
+
+
+

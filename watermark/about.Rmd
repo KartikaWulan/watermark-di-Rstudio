@@ -1,0 +1,20 @@
+---
+title: "My Profile"
+---
+Perkenalkan nama saya Kartika Wulandari, saya mahasiswi Teknik Informatika dari UIN Malang asal kota Malang, Jawa Timur. Website ini dibuat untuk memenuhi tugas Linear Algebra yang bermateri pemberian watermark pada Rstudio.
+
+<img src="kartika.jpeg"
+     alt=""
+     style="float: center; margin: 10px;"
+     />
+     
+Mahasiswi :  Kartika Wulandari     
+
+
+<img src="paksuhar.jpg"
+     alt=""
+     style="float: center; margin: 10px;"
+     />
+    
+Dosen Pengampu : Prof. Dr. Suhartono, M.Kom 
+

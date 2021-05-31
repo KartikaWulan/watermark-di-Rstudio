@@ -1,0 +1,18 @@
+.watermark { 
+  opacity: 0.2; 
+  position: fixed; 
+  top: 25%; 
+  left: 50%; 
+  font-size: 100%; 
+  color: #00407d; 
+  
+ 
+kemudian kita tambahkan code untuk memberikan watermark pada halaman Rstudio.
+
+<div class="watermark">INI WATERMARK</div>
+
+sedangkan, code untuk membuat watermark logo pada .rmd sebagai berikut :
+
+<div class="watermark"><img src ="UIN-MALANG.jpeg"></div>
+
+}

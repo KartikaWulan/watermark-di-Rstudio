@@ -1,0 +1,46 @@
+---
+title: "Watermark"
+author : Kartika Wulandari/Teknik Informatika/UIN Maulana Malik Ibrahim/Dosen Pembimbing = Prof.Dr.Suhartono,M.kom
+date   : 30 Mei 2021
+output :
+        html_document :
+         toc: true 
+         toc_float: true 
+         theme: flatly 
+         css: style.css
+        
+---
+Install Package
+---
+hal pertama yang harus dilakukan adalah menginstall package magick
+
+```{r}
+library(magick)
+```
+Read & Print Image
+---
+
+Yang kedua membaca gambar dengan fungsi image_read dan memasukkannya kedalam variable. serta menampilkannya dengan fungsi print
+```{r}
+img <- image_read("D:\\TUGAS\\SMT 2\\linear\\watermark\\_site\\Logo Uin Malang.png")
+print(img)
+```
+
+Adding Watermark
+---
+Dan yang terakhir kita tinggal menambahkan watermark (berupa text) dan mengaturnya sesuai keinginan kita.
+```{r}
+magick::image_annotate(img, "Universitasku", location = "+200+200", degrees = 360,
+size= 30, weight=800, font = "MonotypeCorsiva" , color = "#FFFFFF",
+strokecolor = "transparent",  boxcolor = NULL)
+```
+
+Gambar diatas merupakan Gambar yang diberi watermark tulisan "Universitasku"
+
+DAFTAR PUSTAKA
+https://cran.r-project.org/web/packages/magick/vignettes/intro.html#Text_annotation
+
+
+
+
+
